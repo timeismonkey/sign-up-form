@@ -14,10 +14,15 @@
     </aside>
     <main>
         <!-- Header text -->
-        <div class="main-header"></div>
+        <div class="main-header">
+            <p class="sign-up-now">
+                This is not a real online service! You know you need something like this in your life to 
+                help you realize your deepest dreams. Sign up <span class="now">now</span> to get started.
+            </p>
+        </div>
 
         <!-- Form content -->
-        <form action="" class="main-form">
+        <form action="" id="main-form">
             <div class="input-group">
                 <label for="first_name">FIRST NAME</label>
                 <input type="text" name="first_name" id="first_name"> 
@@ -48,7 +53,14 @@
                 <input type="password" name="confirm-password" id="confirm-password">
             </div>
         </form>
-    
+        
+        <!-- Submit section -->
+        <div class="submit-footer">
+            <button type="submit" form="main-form">Create Account</button>
+            <p class="already-account">
+                Already have an account? <a href="">Log in</a>
+            </p>
+        </div>
     </main>
 </body>
 </html>
