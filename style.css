@@ -39,7 +39,7 @@ aside > p {
     align-self: center;
 }
 
-/* Main log in section */
+/* Main sign up section */
 main {
     display: flex;
     flex-direction: column;
@@ -47,4 +47,13 @@ main {
     background-color: white;
     width: 65vw;
     padding: 0 5rem;
+}
+
+.main-header {
+    padding-right: 35rem;
+}
+
+.sign-up-now {
+    font-size: 2rem;
+    font-weight: 800;
 }
