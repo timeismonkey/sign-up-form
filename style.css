@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('./fonts/Norse-Bold.otf');
+}
+
 :root {
     box-sizing: border-box;
 }
@@ -14,19 +19,24 @@ body {
 
 /* Logo section */
 aside {
-    background-color: rgba(99, 102, 100, .5);
+    background-color: rgba(14, 15, 15, .6);
     width: 50vw;
     display: flex;
     justify-content: center;
     align-self: baseline;
+    margin-top: 20vh;
 }
 
 aside > img {
-    height: 250px;
+    height: 200px;
 }
 
 aside > p {
-    font-size: 4rem;
+    margin: 0;
+    font-size: 7rem;
+    color: white;
+    font-family: 'Norse-Bold', sans-serif;
+    align-self: center;
 }
 
 main {
