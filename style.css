@@ -20,7 +20,7 @@ body {
 /* Logo section */
 aside {
     background-color: rgba(14, 15, 15, .6);
-    width: 50vw;
+    width: 35vw;
     display: flex;
     justify-content: center;
     align-self: baseline;
@@ -39,7 +39,8 @@ aside > p {
     align-self: center;
 }
 
+/* Main log in section */
 main {
     background-color: white;
-    width: 50vw;
+    width: 65vw;
 }
