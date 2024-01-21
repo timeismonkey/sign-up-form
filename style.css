@@ -9,12 +9,24 @@ body {
     justify-content: center;
     background: url('./imgs/purple_flowers.jpg') no-repeat;
     background-size: cover;
-    background-position: -100px 0;
+    height: 100vh;
 }
 
+/* Logo section */
 aside {
     background-color: rgba(99, 102, 100, .5);
     width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-self: baseline;
+}
+
+aside > img {
+    height: 250px;
+}
+
+aside > p {
+    font-size: 4rem;
 }
 
 main {
