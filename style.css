@@ -41,6 +41,10 @@ aside > p {
 
 /* Main log in section */
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: white;
     width: 65vw;
+    padding: 0 5rem;
 }
