@@ -1,0 +1,23 @@
+:root {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: url('./imgs/purple_flowers.jpg') no-repeat;
+    background-size: cover;
+    background-position: -100px 0;
+}
+
+aside {
+    background-color: rgba(99, 102, 100, .5);
+    width: 50vw;
+}
+
+main {
+    background-color: white;
+    width: 50vw;
+}
