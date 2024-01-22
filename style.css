@@ -27,11 +27,11 @@ aside {
     margin-top: 20vh;
 }
 
-aside > img {
+aside>img {
     height: 200px;
 }
 
-aside > p {
+aside>p {
     margin: 0;
     font-size: 7rem;
     color: white;
@@ -46,14 +46,24 @@ main {
     justify-content: center;
     background-color: white;
     width: 65vw;
-    padding: 0 5rem;
+    padding: 0 0 0 3rem;
 }
 
 .main-header {
-    padding-right: 35rem;
+    padding-right: 10rem;
 }
 
 .sign-up-now {
     font-size: 2rem;
     font-weight: 800;
+}
+
+@media (min-width: 2400px) {
+    main{
+        padding: 0 0 0 5rem;
+    }
+
+    .main-header {
+        padding-right: 35rem;
+    }
 }
