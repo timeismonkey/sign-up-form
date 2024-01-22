@@ -28,15 +28,25 @@ aside {
 }
 
 aside>img {
-    height: 200px;
+    height: 120px;
 }
 
 aside>p {
     margin: 0;
-    font-size: 7rem;
+    font-size: 5rem;
     color: white;
     font-family: 'Norse-Bold', sans-serif;
     align-self: center;
+}
+
+@media (min-width: 2400px) {
+    aside>img {
+        height: 200px;
+    }
+
+    aside>p {
+        font-size: 7rem;
+    }
 }
 
 /* Main sign up section */
@@ -59,7 +69,7 @@ main {
 }
 
 @media (min-width: 2400px) {
-    main{
+    main {
         padding: 0 0 0 5rem;
     }
 
