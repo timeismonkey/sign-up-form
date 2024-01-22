@@ -5,9 +5,11 @@
 
 :root {
     box-sizing: border-box;
+    --main-font-family: 'Roboto', sans-serif;
 }
 
 body {
+    font-family: var(--main-font-family);
     margin: 0;
     padding: 0;
     display: flex;
@@ -15,6 +17,14 @@ body {
     background: url('./imgs/purple_flowers.jpg') no-repeat;
     background-size: cover;
     height: 100vh;
+}
+
+p {
+    margin: 0;
+}
+
+.italics {
+    font-style: italic;
 }
 
 /* Logo section */
@@ -54,6 +64,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 3rem;
     background-color: white;
     width: 65vw;
     padding: 0 0 0 3rem;
@@ -63,9 +74,13 @@ main {
     padding-right: 10rem;
 }
 
-.sign-up-now {
-    font-size: 2rem;
-    font-weight: 800;
+.sign-up-now, .want-to {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.want-to {
+    margin-top: 2rem;
 }
 
 @media (min-width: 2400px) {
@@ -75,5 +90,10 @@ main {
 
     .main-header {
         padding-right: 35rem;
+    }
+
+    .sign-up-now, .want-to {
+        font-size: 2rem;
+        font-weight: 800;
     }
 }
