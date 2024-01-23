@@ -162,7 +162,7 @@ input:focus {
 button[type="submit"] {
   height: 3.5rem;
   width: 17rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.7rem;
   color: white;
   background-color: #c264f5;
   border: none;
@@ -176,4 +176,6 @@ button[type="submit"]:hover {
   color: #c264f5;
   background-color: white;
 }
-
+.already-account {
+  font-size: 1.3rem;
+}
