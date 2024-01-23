@@ -60,7 +60,8 @@ aside>p {
 }
 
 /* Main sign up section */
-.main-header, .submit-form {
+.main-header,
+.submit-form {
     padding-left: 3rem;
 }
 
@@ -76,7 +77,9 @@ main {
 }
 
 @media (min-width: 2400px) {
-    .main-header, .submit-form {
+
+    .main-header,
+    .submit-form {
         padding-left: 5rem;
     }
 
@@ -104,7 +107,8 @@ main {
 
 .form {
     padding: 1.5rem 3rem;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add box shadow */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    /* Add box shadow */
 }
 
 form {
