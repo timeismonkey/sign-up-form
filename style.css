@@ -61,7 +61,8 @@ aside > p {
 
 /* Main sign up section */
 .main-header,
-.submit-form {
+.submit-form,
+.submit-footer {
   padding-left: 3rem;
 }
 
@@ -107,7 +108,6 @@ main {
 .form {
   padding: 1.5rem 15rem 1.5rem 3rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  /* Add box shadow */
 }
 
 form {
@@ -158,3 +158,22 @@ input:focus {
   font-size: 1rem;
   font-weight: 300;
 }
+
+button[type="submit"] {
+  height: 3.5rem;
+  width: 17rem;
+  margin-bottom: 2rem;
+  color: white;
+  background-color: #c264f5;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"]:hover {
+  color: #c264f5;
+  background-color: white;
+}
+
