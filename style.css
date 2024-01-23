@@ -119,6 +119,7 @@ form {
 .form-message {
     margin-bottom: 1rem;
 }
+
 .input-group {
     width: 50%;
     display: flex;
@@ -127,17 +128,34 @@ form {
 
 label {
     font-size: 1rem;
-    font-weight:600;
+    font-weight: 600;
     color: rgb(48, 48, 47);
 }
 
 input {
     width: 75%;
     height: 1.8rem;
-    border: 2px solid rgb(227, 227, 225);
+    border: 2px solid #E5E7EB;
     border-radius: 5px;
 }
 
-.row1, .row2 {
+input:focus {
+    outline: none;
+    border: 2px solid #00aaff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.row1, 
+.row2 {
     margin-bottom: 1rem;
+}
+
+.error, 
+.error:focus {
+    border: 2px solid red;
+}
+
+.error-message {
+    font-size: 1rem;
+    font-weight: 300;
 }
