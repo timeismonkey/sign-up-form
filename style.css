@@ -68,15 +68,20 @@ main {
     background-color: white;
     width: 65vw;
     padding: 0 0 0 3rem;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+@media (min-width: 2400px) {
+    main {
+        padding: 0 0 0 5rem;
+        font-size: 2rem;
+        font-weight: 800;
+    }
 }
 
 .main-header {
     padding-right: 10rem;
-}
-
-.sign-up-now, .want-to {
-    font-size: 26px;
-    font-weight: 600;
 }
 
 .want-to {
@@ -84,16 +89,7 @@ main {
 }
 
 @media (min-width: 2400px) {
-    main {
-        padding: 0 0 0 5rem;
-    }
-
     .main-header {
         padding-right: 35rem;
-    }
-
-    .sign-up-now, .want-to {
-        font-size: 2rem;
-        font-weight: 800;
     }
 }
