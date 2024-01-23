@@ -103,6 +103,19 @@ main {
 }
 
 .form {
-    padding: 2rem 3rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    padding: 1.5rem 3rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add box shadow */
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-group {
+    width: 50%;
+}
+
+.form-message {
+    margin-bottom: 1rem;
 }
